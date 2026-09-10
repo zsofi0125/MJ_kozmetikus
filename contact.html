@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MJ Kozmetikus | Kapcsolat</title>
+  <link rel="stylesheet" href="src/styles/common.css">
+  <link rel="stylesheet" href="src/styles/pages/contact.css">
+</head>
+
+<body>
+
+  <!-- Persistent Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo" data-i18n="nav.logo">Molnár Judit Mesterkozmetikus</a>
+      <nav id="navLinks" class="nav-links">
+
+
+        <a href="pricing.html" data-i18n="nav.pricing">Árlista</a>
+        <a href="gallery.html" data-i18n="nav.gallery">Galéria</a>
+        <a href="about.html" data-i18n="nav.about">Rólam</a>
+        <a href="contact.html" data-i18n="nav.contact" class="active">Kapcsolat</a>
+      </nav>
+      <div class="header-actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Nyelv váltása">EN</button>
+        <button class="hamburger" id="hamburger" aria-label="Mobil menü" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-header fade-up">
+      <h1 data-i18n="nav.contact">Kapcsolat</h1>
+    </div>
+
+    <section class="section-padding container">
+      <div class="contact-grid">
+        <!-- Address -->
+        <a href="https://www.google.com/maps/search/?api=1&query=46.059014,18.211428" target="_blank"
+          class="contact-info-card fade-up">
+          <span class="icon"><img src="src/assets/img/icons/placeholder.png" alt="Cím" class="contact-icon"></span>
+          <h3 data-i18n="contact.address">Cím</h3>
+          <span data-i18n="contact.address.value">7623 Pécs, Megyeri út 66.</span>
+        </a>
+        <!-- Phone -->
+        <a href="tel:+36204727158" class="contact-info-card fade-up">
+          <span class="icon"><img src="src/assets/img/icons/smartphone.png" alt="Telefon" class="contact-icon"></span>
+          <h3 data-i18n="contact.phone">Telefon</h3>
+          <span data-i18n="contact.phone.value">+36 20 472 7158</span>
+        </a>
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/MJkozmetikus" target="_blank" class="contact-info-card fade-up">
+          <span class="icon"><img src="src/assets/img/icons/facebook.png" alt="Facebook" class="contact-icon"></span>
+          <h3>Facebook</h3>
+          <span data-i18n="contact.facebook.value">Facebook</span>
+        </a>
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/m.j.kozmetikus/" target="_blank" class="contact-info-card fade-up">
+          <span class="icon"><img src="src/assets/img/icons/instagram.png" alt="Instagram" class="contact-icon"></span>
+          <h3>Instagram</h3>
+          <span data-i18n="contact.insta.value">m.j.kozmetikus</span>
+        </a>
+      </div>
+
+      <div class="contact-row-split">
+        <!-- Working Hours -->
+        <div class="fade-up">
+          <div class="hours-card">
+            <h3 data-i18n="contact.hours.title">Nyitvatartás</h3>
+            <ul class="hours-list">
+              <li><span data-i18n="contact.hours.weekdays">Hétfő - Péntek:</span> <span>08:00 - 18:00</span></li>
+              <li><span data-i18n="contact.hours.saturday">Szombat:</span> <span>09:00 - 13:00</span></li>
+              <li><span data-i18n="contact.hours.sunday">Vasárnap:</span> <span
+                  data-i18n="contact.hours.closed">Zárva</span></li>
+            </ul>
+            <p class="hours-note" data-i18n="contact.hours.note">* Bejelentkezés alapján, rugalmas időpontok is
+              kérhetőek.</p>
+          </div>
+        </div>
+        <!-- Map -->
+        <div class="fade-up">
+          <div class="map-container mt-0">
+            <iframe src="https://www.google.com/maps?q=46.059014,18.211428&hl=hu&z=16&output=embed" width="100%"
+              height="100%" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container fade-up">
+      <h3 class="logo">Molnár Judit Mesterkozmetikus</h3>
+      <p class="footer-note" data-i18n="footer.note">Az árak forintban (HUF) értendők és tartalmazzák az ÁFA értékét.
+        Érvényes: 2026. 01.03-tól visszavonásig.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="src/scripts/main.js"></script>
+</body>
+
+</html>

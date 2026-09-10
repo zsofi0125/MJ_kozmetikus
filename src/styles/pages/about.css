@@ -1,0 +1,169 @@
+/* ==========================================================================
+   Magazine Style About Section Enhancements
+   ========================================================================== */
+
+.magazine-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(3.5rem, 5vw, 5.5rem);
+  align-items: center;
+  justify-content: center;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.magazine-image-wrapper {
+  flex: 1.2;
+  min-width: 350px;
+  max-width: 550px;
+}
+
+.magazine-img {
+  width: 100%;
+  border-radius: 4px;
+  /* sharper corners for editorial feel */
+  box-shadow: 15px 15px 0px rgba(229, 217, 197, 0.8);
+  /* elegant beige offset shadow */
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.magazine-text-col {
+  flex: 1.5;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.magazine-title {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-family: var(--font-heading);
+  letter-spacing: -1px;
+  color: var(--text-primary);
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 1rem;
+}
+
+.magazine-title:first-of-type {
+  margin-top: 3rem;
+}
+
+.magazine-title.text-center {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.magazine-bio-content {
+  color: var(--text-secondary);
+}
+
+.magazine-bio-content p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary);
+}
+
+.magazine-drop-cap::first-letter {
+  float: left;
+  font-family: var(--font-heading);
+  font-size: 5rem;
+  line-height: 0.8;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  color: #aa9790;
+  /* Beige color matching the photo background */
+  font-weight: 700;
+}
+
+.magazine-quote {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-style: italic;
+  color: var(--text-primary);
+  margin: 3rem 0;
+  padding: 1.5rem 0;
+  border-top: 1px solid #aa9790;
+  border-bottom: 1px solid #aa9790;
+  text-align: center;
+  position: relative;
+}
+
+.magazine-quote::before {
+  font-size: 4rem;
+  color: #aa9790;
+  position: absolute;
+  top: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 1;
+}
+
+/* Timeline/Expertise magazine styling */
+.magazine-expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(1.5rem, 2vw, 3rem);
+  margin-top: 2rem;
+}
+
+@media (max-width: 1835px) {
+  .magazine-expertise-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .magazine-expertise-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.magazine-expertise-card {
+  background: var(--bg-secondary);
+  border-left: 4px solid #e5d9c5;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+}
+
+.magazine-expertise-header {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.magazine-expertise-list {
+  list-style: none;
+  padding: 0;
+}
+
+.magazine-expertise-list li {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed var(--border-light);
+  display: flex;
+  flex-direction: column;
+}
+
+.magazine-expertise-list li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.magazine-expertise-year {
+  font-weight: 700;
+  color: #aa9790;
+  margin-bottom: 0.25rem;
+}

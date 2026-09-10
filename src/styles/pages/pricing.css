@@ -1,0 +1,114 @@
+/* Pricing Page Styles */
+.pricing-category {
+  margin-bottom: 4rem;
+  scroll-margin-top: 150px;
+}
+
+.pricing-category:first-of-type {
+  margin-top: 3rem;
+}
+
+.pricing-category h3 {
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 0.5rem;
+  color: var(--accent-blush);
+  margin-bottom: 2rem;
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pricing-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--border-light);
+  transition: var(--transition-smooth);
+  gap: 1rem;
+}
+
+.pricing-row> :first-child {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.pricing-row:hover {
+  background-color: var(--bg-secondary);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 4px;
+}
+
+.pricing-group {
+  border-bottom: 1px solid var(--border-light);
+  padding: 0.75rem 0;
+  transition: var(--transition-smooth);
+}
+
+.pricing-group:hover {
+  background-color: var(--bg-secondary);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 4px;
+}
+
+.pricing-group .pricing-row {
+  border-bottom: none;
+  padding: 0.5rem 0;
+}
+
+.pricing-group .pricing-row:hover {
+  background-color: transparent;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.pricing-name {
+  color: var(--text-primary);
+  font-size: clamp(1rem, 1.4vw, 1.15rem);
+}
+
+.pricing-desc {
+  display: block;
+  font-size: clamp(0.8rem, 1.4vw, 1rem);
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
+.pricing-price {
+  font-family: var(--font-heading);
+  color: var(--accent-gold);
+  font-weight: 500;
+  white-space: nowrap;
+  padding-left: 1rem;
+  font-size: clamp(1rem, 1.4vw, 1.15rem);
+}
+
+.loyalty-banner {
+  background: rgba(212, 175, 55, 0.05);
+  border: 1px solid var(--border-light);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  font-size: clamp(0.9rem, 1.4vw, 1.1rem);
+}
+
+.loyalty-banner ul {
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+  color: var(--text-secondary);
+}
+
+
+.pricing-note {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  margin-left: 0;
+  margin-right: auto;
+}

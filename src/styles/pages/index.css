@@ -1,0 +1,168 @@
+/* Hero Section */
+.hero {
+  height: 60vh;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  background-image: url('../../assets/img/luscious-lime-unveiling-minimalistic-beauty-product-concept_1000124-25764.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background-position: center top;
+    min-height: 300px;
+  }
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(248, 250, 244, 0.3), rgba(248, 250, 244, 0.85));
+}
+
+.hero-content {
+  position: relative;
+  z-index: 10;
+  max-width: clamp(600px, 85vw, 2200px);
+  padding: 0 4vw;
+}
+
+.hero-content h1 {
+  margin-bottom: 2rem;
+}
+
+.hero-content p {
+  color: var(--text-secondary);
+  margin-bottom: 3rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Interactive Gallery Slider */
+.gallery-section {
+  padding: 6rem 0;
+  overflow: hidden;
+  background: var(--bg-primary);
+  position: relative;
+}
+
+.gallery-slider-wrapper {
+  position: relative;
+  width: 96vw;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+.gallery-slider-container {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 16px;
+  padding: 1rem 0;
+}
+
+.gallery-slider-track {
+  display: flex;
+  gap: 1.25rem;
+  will-change: transform;
+}
+
+.gallery-img {
+  flex: 0 0 350px;
+  width: 350px;
+  height: 500px;
+  max-height: 75vh;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  user-select: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18);
+}
+
+/* Translucent Navigation Buttons */
+.gallery-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.gallery-nav:hover {
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--accent-blush);
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.28);
+}
+
+.gallery-nav.prev {
+  left: 1rem;
+}
+
+.gallery-nav.next {
+  right: 1rem;
+}
+
+@media (max-width: 1200px) {
+  /* Removed dynamic width to keep fixed size */
+}
+
+@media (max-width: 768px) {
+  .gallery-nav {
+    display: none !important;
+  }
+
+  .gallery-slider-container {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    /* Hide scrollbar Firefox */
+    padding: 1rem 0.5rem;
+  }
+
+  .gallery-slider-container::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar Chrome/Safari */
+  }
+
+  /* Removed dynamic width to keep fixed size, only height adjusted for mobile */
+  .gallery-img {
+    height: 440px;
+    scroll-snap-align: center;
+  }
+}
+
+/* Gallery placeholders */
+.gallery-img.placeholder {
+  background: rgba(0, 0, 0, 0.05);
+}
