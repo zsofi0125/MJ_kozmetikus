@@ -214,7 +214,7 @@ export const translations = {
         "contact.address.value": "66 Megyeri út, Pécs, Hungary, 7623",
         "contact.phone": "Phone",
         "contact.phone.value": "+36 20 472 7158",
-        "contact.facebook.value": "Judit Molnár - Master Cosmetologist",
+        "contact.facebook.value": "Judit Molnár Master Cosmetologist",
         "contact.insta.value": "m.j.kozmetikus",
         "contact.hours.title": "Opening Hours",
         "contact.hours.weekdays": "Monday - Friday:",
