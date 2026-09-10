@@ -11,7 +11,7 @@ export const translations = {
         // Home Page
         "home.hero.title": "Ragyogj Kívül-Belül",
         "home.hero.subtitle": "2012 óta dolgozok kozmetikusként, Szívvel, Lélekkel, Szenvedéllyel",
-        "home.services.title": "Kiemelt Szolgáltatásaim",
+        "home.services.title": "Szolgáltatásaim",
         "home.gallery.title": "Kozmetika",
 
         // Pricing Page Categories
@@ -123,7 +123,7 @@ export const translations = {
         // Home Page
         "home.hero.title": "Glow From the Inside Out",
         "home.hero.subtitle": "Providing expert skincare with heart, soul, and passion since 2012",
-        "home.services.title": "My Featured Services",
+        "home.services.title": "Services",
         "home.gallery.title": "Beauty Salon",
 
         // Services summary
@@ -263,7 +263,7 @@ export function initI18n() {
             setLanguage(newLang);
         });
     }
-    
+
     // Reveal navigation once translation is applied
     document.documentElement.classList.add('i18n-ready');
 }
