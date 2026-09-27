@@ -108,7 +108,7 @@ export const translations = {
         "imprint.tax.label": "Adószám:",
         "imprint.tax.value": "65895326-1-22",
         "imprint.hosting.label": "Tárhelyszolgáltató:",
-        "imprint.hosting.value": "(feltöltés alatt)",
+        "imprint.hosting.value": "Cloudflare, Inc.",
 
         // About & Contact
         "about.title": "Bemutatkozás",
@@ -238,7 +238,7 @@ export const translations = {
         "imprint.tax.label": "Tax Number:",
         "imprint.tax.value": "65895326-1-22",
         "imprint.hosting.label": "Hosting Provider:",
-        "imprint.hosting.value": "(will be filled)",
+        "imprint.hosting.value": "Cloudflare, Inc.",
 
         // About & Contact
         "about.title": "Introduction",
