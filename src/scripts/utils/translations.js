@@ -91,6 +91,26 @@ export const translations = {
 
         // Footer
         "footer.note": "Az árak forintban (HUF) értendők és tartalmazzák az ÁFA értékét. Érvényes: 2026. 01.03-tól visszavonásig.",
+        "footer.nav.title": "Navigáció",
+        "footer.tagline": "Ragyogj Kívül-Belül",
+        "footer.social.title": "Kövess minket",
+        "footer.copyright": "© 2026 Molnár Judit Mesterkozmetikus. Minden jog fenntartva.",
+        "footer.imprint": "Impresszum",
+
+        // Imprint
+        "imprint.title": "Impresszum",
+        "imprint.name.label": "Szolgáltató neve / Egyéni vállalkozó:",
+        "imprint.name.value": "Molnár Judit (Mesterkozmetikus)",
+        "imprint.address.label": "Székhely / Üzlet címe:",
+        "imprint.address.value": "7623 Pécs, Megyeri út 66.",
+        "imprint.phone.label": "Telefonszám:",
+        "imprint.phone.value": "+36 20 472 7158",
+        "imprint.email.label": "E-mail cím:",
+        "imprint.email.value": "info@mjkozmetikus.hu",
+        "imprint.chamber.label": "Illetékes kamara:",
+        "imprint.chamber.value": "Baranya Megyei Kereskedelmi és Iparkamara",
+        "imprint.hosting.label": "Tárhelyszolgáltató:",
+        "imprint.hosting.value": "Nethely Kft. (7624 Pécs, Budai vám 1.)",
 
         // About & Contact
         "about.title": "Bemutatkozás",
@@ -203,6 +223,26 @@ export const translations = {
 
         // Footer
         "footer.note": "Prices are in HUF and include VAT. Valid from January 3, 2026 until further notice.",
+        "footer.nav.title": "Navigation",
+        "footer.tagline": "Glow From the Inside Out",
+        "footer.social.title": "Follow Us",
+        "footer.copyright": "© 2026 Judit Molnár Master Cosmetologist. All rights reserved.",
+        "footer.imprint": "Imprint",
+
+        // Imprint
+        "imprint.title": "Imprint",
+        "imprint.name.label": "Service Provider / Sole Proprietor:",
+        "imprint.name.value": "Judit Molnár (Master Cosmetologist)",
+        "imprint.address.label": "Registered Address / Salon Location:",
+        "imprint.address.value": "66 Megyeri út, Pécs, 7623, Hungary",
+        "imprint.phone.label": "Phone Number:",
+        "imprint.phone.value": "+36 20 472 7158",
+        "imprint.email.label": "Email Address:",
+        "imprint.email.value": "info@mjkozmetikus.hu",
+        "imprint.chamber.label": "Chamber of Commerce:",
+        "imprint.chamber.value": "Chamber of Commerce and Industry of Baranya County",
+        "imprint.hosting.label": "Hosting Provider:",
+        "imprint.hosting.value": "Nethely Kft. (7624 Pécs, Budai vám 1.)",
 
         // About & Contact
         "about.title": "Introduction",
