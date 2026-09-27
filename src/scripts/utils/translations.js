@@ -6,7 +6,7 @@ export const translations = {
         "nav.contact": "Kapcsolat",
         "nav.gallery": "Galéria",
         "nav.about": "Rólam",
-        "nav.logo": 'Molnár Judit<span class="logo-sub">Mesterkozmetikus</span>',
+        "nav.logo": 'Molnár Judit <span class="logo-sub">Mesterkozmetikus</span>',
 
         // Home Page
         "home.hero.title": "Ragyogj Kívül-Belül",
