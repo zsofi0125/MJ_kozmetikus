@@ -24,12 +24,12 @@ export const translations = {
         "price.cat.waxing": "GYANTA",
 
         // Descriptions for Services page
-        "svc.treatments.desc": "Prémium VAGHEGGI arckezelések és masszázsok az üde és ragyogó bőrért.",
-        "svc.beauty.desc": "Szemöldök és szempilla formázás, festés és lifting a tökéletes megjelenésért.",
-        "svc.makeup.desc": "Professzionális sminkek minden alkalomra, a nappalitól a menyasszonyiig.",
-        "svc.lashes.desc": "Strapabíró és látványos műszempilla építés 2D-től 6D-ig.",
+        "svc.treatments.desc": "Prémium VAGHEGGI arckezelések és masszázsok az üde és ragyogó bőrért",
+        "svc.beauty.desc": "Szemöldök és szempilla formázás, festés és lifting a tökéletes megjelenésért",
+        "svc.makeup.desc": "Professzionális sminkek minden alkalomra, a nappalitól a menyasszonyiig",
+        "svc.lashes.desc": "Strapabíró és látványos műszempilla építés 2D-től 6D-ig",
         "svc.pmu.desc": "Tartós, esztétikus megoldás",
-        "svc.waxing.desc": "Kíméletes és alapos szőrtelenítés a test minden területén.",
+        "svc.waxing.desc": "Kíméletes és alapos szőrtelenítés a test minden területén",
 
         // Detailed Pricing - Treatments
         "price.face.clean": "VAGHEGGI tisztító, tápláló arckezelés",
