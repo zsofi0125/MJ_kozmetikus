@@ -6,7 +6,7 @@ export const translations = {
         "nav.contact": "Kapcsolat",
         "nav.gallery": "Galéria",
         "nav.about": "Rólam",
-        "nav.logo": "Molnár Judit Mesterkozmetikus",
+        "nav.logo": 'Molnár Judit<span class="logo-sub">Mesterkozmetikus</span>',
 
         // Home Page
         "home.hero.title": "Ragyogj Kívül-Belül",
@@ -94,7 +94,7 @@ export const translations = {
 
         // About & Contact
         "about.title": "Bemutatkozás",
-        "about.content": '<p class="magazine-drop-cap">A szépség világa már 14 éves koromban magával ragadott. Akkor szerettem bele a kozmetika világába, azóta is tudom, hogy ez az a hivatás, amit teljes szívvel szeretnék végezni.</p><p>Divat–stílus szakon érettségiztem, emellett a rajz is mindig fontos része volt az életemnek, amelyből szintén érettségit tettem. A kreativitás, a harmónia és a részletek iránti szeretet ma is végigkíséri a munkámat, minden egyes vendég egy új történet és egy új alkotás.</p><div class="magazine-quote">Hiszem, hogy amikor egy nő időt szán önmagára, nemcsak a külseje változik, hanem a lelke is feltöltődik.</div><p>2012 óta dolgozom saját vállalkozásomban, 2021 óta kozmetikus mesterként. Az elmúlt évek során megtapasztaltam, hogy a munkám sokkal többről szól, mint a külső szépség kiemeléséről. Számomra az a legnagyobb öröm, amikor a vendégem mosolyogva néz a tükörbe, magabiztosabbnak érzi magát, és egy kicsit könnyebb lélekkel indul tovább a napja.</p><p>Hiszem, hogy a szépség belülről indul, én pedig a külső megjelenés finom kiemelésével szeretném ezt még ragyogóbbá tenni. A munkám a szenvedélyem. Folyamatosan képzem magam, hogy a legnagyobb odafigyeléssel dolgozhassak.</p><p>Ha ellátogatsz hozzám, nemcsak egy kezelést kapsz, hanem egy kis időt önmagadra – ahol a szépülés mellett a testi és lelki feltöltődés is helyet kap. Szeretettel várlak, hogy együtt kiemeljük azt a szépséget, ami mindig is benned volt.</p>',
+        "about.content": '<p class="magazine-drop-cap">A szépség világa már 14 éves koromban magával ragadott. Akkor szerettem bele a kozmetika világába, azóta is tudom, hogy ez az a hivatás, amit teljes szívvel szeretnék végezni.</p><p>Divat–stílus szakon érettségiztem, emellett a rajz is mindig fontos része volt az életemnek, amelyből szintén érettségit tettem. A kreativitás, a harmónia és a részletek iránti szeretet ma is végigkíséri a munkámat, minden egyes vendég egy új történet és egy új alkotás.</p><div class="magazine-quote">Hiszem, hogy amikor egy nő időt szán önmagára, nemcsak a külseje változik, hanem a lelke is feltöltődik.</div><p>2012 óta dolgozom saját vállalkozásomban, 2021 óta mesterkozmetikusként. Az elmúlt évek során megtapasztaltam, hogy a munkám sokkal többről szól, mint a külső szépség kiemeléséről. Számomra az a legnagyobb öröm, amikor a vendégem mosolyogva néz a tükörbe, magabiztosabbnak érzi magát, és egy kicsit könnyebb lélekkel indul tovább a napja.</p><p>Hiszem, hogy a szépség belülről indul, én pedig a külső megjelenés finom kiemelésével szeretném ezt még ragyogóbbá tenni. A munkám a szenvedélyem. Folyamatosan képzem magam, hogy a legnagyobb odafigyeléssel dolgozhassak.</p><p>Ha ellátogatsz hozzám, nemcsak egy kezelést kapsz, hanem egy kis időt önmagadra – ahol a szépülés mellett a testi és lelki feltöltődés is helyet kap. Szeretettel várlak, hogy együtt kiemeljük azt a szépséget, ami mindig is benned volt.</p>',
         "contact.title": "Kapcsolat",
         "about.expertise.title": "Szakmai tevékenységeim",
         "about.expertise": '<div class="magazine-expertise-card"><div class="magazine-expertise-header">Alapok & Versenyek</div><ul class="magazine-expertise-list"><li><span class="magazine-expertise-year">2006 – 2012</span>Kozmetikus szakképesítés, Divat-Stílus érettségi<br>Nappali smink III. helyezés, Regionális verseny Különdíj</li></ul></div><div class="magazine-expertise-card"><div class="magazine-expertise-header">Szempilla & Szépségápolás</div><ul class="magazine-expertise-list"><li><span class="magazine-expertise-year">2013 – 2022</span>3-6D LASHES-képzés, 2D LASHES-képzés, 3D műszempilla építés<br>Sarasvati Beauty hennafestő tanfolyam<br>Reflectocil Szempilla Lifting és Dauer</li></ul></div><div class="magazine-expertise-card"><div class="magazine-expertise-header">Anti-aging & Masszázs</div><ul class="magazine-expertise-list"><li><span class="magazine-expertise-year">2021</span>Prémium masszázstechnikák anti-aging kezelésekhez<br>JADE ROLL és GUA SHA liftingmasszázs<br>Nyirokdrenázs, Szemkezelés</li></ul></div><div class="magazine-expertise-card"><div class="magazine-expertise-header">Mesterfokozat & PMU</div><ul class="magazine-expertise-list"><li><span class="magazine-expertise-year">2021 – 2023</span>Kozmetikus Mester Képzés, Baranyai Kereskedelmi és Iparkamara<br>Ombre-szálazott szemöldöktetoválás alapképzés</li></ul></div>',
@@ -113,7 +113,7 @@ export const translations = {
     },
     en: {
         // Nav & General
-        "nav.logo": "Judit Molnár Cosmetologist",
+        "nav.logo": 'Judit Molnár<span class="logo-sub">Cosmetologist</span>',
         "nav.home": "Home",
         "nav.pricing": "Pricing",
         "nav.contact": "Contact",
