@@ -17,7 +17,7 @@ export const translations = {
         // Pricing Page Categories
         "price.title": "Árlista",
         "price.cat.treatments": "KEZELÉS",
-        "price.cat.beauty": "SZÉPTKEZÉS",
+        "price.cat.beauty": "SZÉPÍTKEZÉS",
         "price.cat.makeup": "SMINK",
         "price.cat.lashes": "MŰSZEMPILLA",
         "price.cat.pmu": "SMINKTETOVÁLÁS",
