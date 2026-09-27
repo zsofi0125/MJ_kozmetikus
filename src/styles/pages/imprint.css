@@ -42,3 +42,17 @@
 .imprint-grid-hosting {
   grid-template-columns: 1fr;
 }
+
+.imprint-attribution {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.imprint-attribution a {
+  color: var(--text-secondary);
+  text-decoration: underline;
+}
+
+.imprint-attribution a:hover {
+  color: var(--accent-blush);
+}
