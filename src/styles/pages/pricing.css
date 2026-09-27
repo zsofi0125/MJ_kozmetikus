@@ -88,12 +88,27 @@
   font-size: clamp(1rem, 1.4vw, 1.15rem);
 }
 
+.pricing-row.pmu-row {
+  flex-direction: column;
+  width: 100%;
+}
+
+.pricing-header-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
 .loyalty-banner {
   background: rgba(212, 175, 55, 0.05);
   border: 1px solid var(--border-light);
   padding: 1.5rem;
   border-radius: 8px;
-  margin-top: 1rem;
+  margin-top: 1.25rem;
+  width: 100%;
+  box-sizing: border-box;
   font-size: clamp(0.9rem, 1.4vw, 1.1rem);
 }
 
