@@ -31,3 +31,14 @@
   color: var(--text-secondary);
   font-size: 1rem;
 }
+
+.imprint-divider {
+  height: 1px;
+  background-color: var(--border-light);
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.imprint-grid-hosting {
+  grid-template-columns: 1fr;
+}
