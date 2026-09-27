@@ -1,4 +1,4 @@
-﻿/* Contact Page Specific */
+/* Contact Page Specific */
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -15,14 +15,17 @@
   border-radius: 12px;
   border: 2px solid var(--border-light);
   text-align: center;
-  transition: var(--transition-smooth);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, opacity 0.4s ease-out;
+  transition-delay: 0s;
   margin-top: 3rem;
+  will-change: transform;
 }
 
 .contact-info-card:hover {
   border-color: var(--accent-blush);
   transform: translateY(-5px);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  transition-delay: 0s !important;
 }
 
 .contact-info-card .icon {
@@ -101,15 +104,15 @@
   min-width: 300px;
 }
 
-.contact-info-card:nth-child(2) {
+.contact-info-card:not(.visible):nth-child(2) {
   transition-delay: 0.1s;
 }
 
-.contact-info-card:nth-child(3) {
+.contact-info-card:not(.visible):nth-child(3) {
   transition-delay: 0.2s;
 }
 
-.contact-info-card:nth-child(4) {
+.contact-info-card:not(.visible):nth-child(4) {
   transition-delay: 0.3s;
 }
 
