@@ -230,7 +230,7 @@ export const translations = {
         // Imprint
         "imprint.title": "Imprint",
         "imprint.name.label": "Service Provider Name:",
-        "imprint.name.value": "Judit Molnár e.v.",
+        "imprint.name.value": "Molnár Judit e.v.",
         "imprint.address.label": "Registered Address:",
         "imprint.address.value": "7623 Pécs, Megyeri út 66.",
         "imprint.reg.label": "Registration Number:",
